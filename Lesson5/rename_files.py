@@ -6,6 +6,5 @@ def rename_files():
     print(file_list)
     # 2 for each file, rename filename
     for file_name in file_list:
-        os.rename(file_name,)
-
+        os.rename(file_name, file_name.translate(None,'0123456789'))
 rename_files()
