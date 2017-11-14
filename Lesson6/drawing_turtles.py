@@ -1,1 +1,0 @@
-print("drawing_turtles")
